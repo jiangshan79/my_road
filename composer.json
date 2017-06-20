@@ -1,0 +1,23 @@
+{
+    "name": "jiangshan79/test",
+	"authors": [
+      {
+        "name": "tanteng",
+        "email": "tanteng@qq.com",
+        "homepage": "http://www.tanteng.me",
+        "role": "Developer"
+      }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jiangshan79/my_road.git"
+        }
+    ],
+    "require": {
+        "jiangshan79/test": "dev-master"
+    },
+	 "autoload": {
+      "psr-4": { "Loading\\": "" }
+    }
+}
